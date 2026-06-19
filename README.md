@@ -22,9 +22,9 @@ git config --global http.sslverify false
 
 git config --global https.sslverify false
 
-git clone -b openwrt-25.12  https://github.com/whfweb/openwrt.git
+git clone -b master  https://github.com/whfweb/immortalwrt.git
    
-cd openwrt
+cd immortalwrt
 
 sudo apt update
 sudo apt install build-essential libncurses5-dev gawk git libssl-dev gettext zlib1g-dev swig unzip time rsync python3 python3-setuptools
